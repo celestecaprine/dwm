@@ -8,15 +8,16 @@ static const unsigned int systrayonleft = 0;   	/* 0: systray in the right corne
 static const unsigned int systrayspacing = 2;   /* systray spacing */
 static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
 static const int showsystray        = 1;     /* 0 means no systray */
+static const int attachbelow = 1;    /* 1 means attach after the currently active window */
 static const int showbar            = 1;     /* 0 means no bar */
 static const int topbar             = 1;     /* 0 means bottom bar */
-static const char *fonts[]          = { "Source Code Pro:size=13" };
-static const char dmenufont[]       = "Source Code Pro:size=13";
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#005577";
+static const char *fonts[]          = { "Source Code Pro:size=12" };
+static const char dmenufont[]       = "Source Code Pro:size=12";
+static const char col_gray1[]       = "#0B0F24";
+static const char col_gray2[]       = "#354178";
+static const char col_gray3[]       = "#98ABEF";
+static const char col_gray4[]       = "#B8CDFF";
+static const char col_cyan[]        = "#76C1EC";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
